@@ -1,0 +1,11 @@
+ID,Vulnerability,Severity,Description
+1,SQL Injection,High,Attackers can execute arbitrary SQL commands.
+2,Cross-Site Scripting (XSS),Medium,Inject malicious scripts into webpages viewed by users.
+3,Buffer Overflow,High,Exploits by overloading memory buffers.
+4,Broken Authentication,Critical,Allows attackers to compromise user accounts.
+5,Sensitive Data Exposure,High,Sensitive information is not properly protected.
+6,Cross-Site Request Forgery (CSRF),Medium,Force users to perform unwanted actions.
+7,Security Misconfiguration,Low,Default configurations and unnecessary settings left enabled.
+8,Insecure Deserialization,Critical,Exploit code execution or privilege escalation.
+9,Insufficient Logging and Monitoring,Low,Allows attackers to operate undetected.
+10,Directory Traversal,High,Access files and directories outside of the web root folder.

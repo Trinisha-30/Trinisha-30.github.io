@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Forensics AI</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Digital Forensics AI</h1>
+      <p>Analyze digital data to track down cybercriminals</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="upload" class="card">
+        <h2>Upload Data for Analysis</h2>
+        <form id="data-upload-form" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="data-file">Select File:</label>
+            <input type="file" id="data-file" name="data-file" accept=".txt, .json, .csv, .eml">
+          </div>
+          <button type="submit" class="btn">Upload and Analyze</button>
+        </form>
+        <p class="info">Supported file types: TXT, JSON, CSV, and Email (EML).</p>
+      </section>
+
+      <section id="results" class="card">
+        <h2>Analysis Report</h2>
+        <button id="clear-results" class="btn" style="display: none;">Clear Report</button>
+        <div id="analysis-output">
+          <p>No data analyzed yet.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Digital Forensics AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/static/scripts.js"></script>
+</body>
+</html>
